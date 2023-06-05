@@ -20,28 +20,25 @@ class Ui_Inicio(object):
         Inicio.setStyleSheet("background-color: rgb(85, 170, 255);")
         self.centralwidget = QtWidgets.QWidget(Inicio)
         self.centralwidget.setObjectName("centralwidget")
-        self.lb_img = QtWidgets.QLabel(self.centralwidget)
-        self.lb_img.setGeometry(QtCore.QRect(160, 30, 171, 151))
-        self.lb_img.setText("")
-        self.lb_img.setPixmap(QtGui.QPixmap(".\\telas\\../img/akinator_complete-removebg-preview (2).png"))
-        self.lb_img.setScaledContents(True)
-        self.lb_img.setObjectName("lb_img")
-        self.bt_iniciar = QtWidgets.QPushButton(self.centralwidget)
-        self.bt_iniciar.setGeometry(QtCore.QRect(190, 200, 121, 51))
-        self.bt_iniciar.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+        self.lbImg = QtWidgets.QLabel(self.centralwidget)
+        self.lbImg.setGeometry(QtCore.QRect(160, 30, 171, 151))
+        self.lbImg.setText("")
+        self.lbImg.setPixmap(QtGui.QPixmap("S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/APRENDIZES/DIGITAL_SOLUTIONS_07/VINICIUS_MARQUES_TEIXEIRA/Python/Akinator/img/Logo.png"))
+        self.lbImg.setScaledContents(True)
+        self.lbImg.setObjectName("lbImg")
+        self.btIniciar = QtWidgets.QPushButton(self.centralwidget)
+        self.btIniciar.setGeometry(QtCore.QRect(190, 200, 121, 51))
+        self.btIniciar.setStyleSheet("background-color: rgb(254, 224, 127);\n"
 "font: 8pt \"Bosch Sans\";\n"
 "border: 10px;\n"
 "border-color: black;\n"
 "border-radius: 10px;\n"
 "color: black;")
-        self.bt_iniciar.setObjectName("bt_iniciar")
+        self.btIniciar.setObjectName("btIniciar")
         self.lb_logo = QtWidgets.QLabel(self.centralwidget)
         self.lb_logo.setGeometry(QtCore.QRect(380, 460, 111, 20))
         self.lb_logo.setObjectName("lb_logo")
         Inicio.setCentralWidget(self.centralwidget)
-        self.statusbar = QtWidgets.QStatusBar(Inicio)
-        self.statusbar.setObjectName("statusbar")
-        Inicio.setStatusBar(self.statusbar)
 
         self.retranslateUi(Inicio)
         QtCore.QMetaObject.connectSlotsByName(Inicio)
@@ -49,7 +46,7 @@ class Ui_Inicio(object):
     def retranslateUi(self, Inicio):
         _translate = QtCore.QCoreApplication.translate
         Inicio.setWindowTitle(_translate("Inicio", "Inicio"))
-        self.bt_iniciar.setText(_translate("Inicio", "Iniciar"))
+        self.btIniciar.setText(_translate("Inicio", "Iniciar"))
         self.lb_logo.setText(_translate("Inicio", "Produzido por: Alemão"))
 
 

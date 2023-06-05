@@ -6,7 +6,7 @@ from test_sync import test
 class Janela(Ui_Inicio):
     def __init__(self, MainWindow):
         super().setupUi(MainWindow)
-        self.bt_iniciar.clicked.connect(self.btn_click)
+        self.btIniciar.clicked.connect(self.btn_click)
 
     def btn_click(self):
         test()
