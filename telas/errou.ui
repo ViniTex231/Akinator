@@ -55,7 +55,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/APRENDIZES/DIGITAL_SOLUTIONS_07/VINICIUS_MARQUES_TEIXEIRA/Python/Akinator/img/Chorando.png</pixmap>
+     <pixmap>../img/Chorando.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
